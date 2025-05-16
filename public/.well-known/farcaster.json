@@ -1,1 +1,25 @@
-{}
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjM4MTA2NiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweGRmRTQyYmRmMUEwM2I3N0Y4RDdhNTdBOTEyZkRhNTI0ZEE0RjdmODMifQ",
+    "payload": "eyJkb21haW4iOiJsaWxjaG9nc3RhcnMucGFnZXMuZGV2In0",
+    "signature": "MHg5NjVmMDI3ZDE4MGY0MzgzMDM2NGUyYzI3YjliMTkzZjI0NmMxODgzYzg4NDVjODQ3NDFiMjkyYjJkOTgzN2EwNzYxYmUwYjU5OTk5MTMyZTc4OTcyZmViYTg4ODlmMTEzZDMwNWI0NTU3MDk4NGI2OWMzZWMzZmJiMGI1NTcwNTFj"
+  },
+  "frame": {
+    "version": "1",
+    "name": "Lil Chogstars",
+    "iconUrl": "https://lilchogstars.pages.dev/logo.png",
+    "splashImageUrl": "https://lilchogstars.pages.dev/splash.png",
+    "splashBackgroundColor": "#3f317b",
+    "homeUrl": "https://lilchogstars.pages.dev",
+    "subtitle": "Lil Chogstars Open Editon!",
+    "description": "Mint Lil Chogstars Open Editon!",
+    "screenshotUrls": [],
+    "primaryCategory": "art-creativity",
+    "tags": ["lilchogstars", "monad", "nft", "mint"],
+    "heroImageUrl": "https://lilchogstars.pages.dev/og.png",
+    "tagline": "Lil Chogstars Open Editon!",
+    "ogTitle": "Lil Chogstars",
+    "ogDescription": "Mint Lil Chogstars Open Editon!",
+    "ogImageUrl": "https://lilchogstars.pages.dev/og.png"
+  }
+}
