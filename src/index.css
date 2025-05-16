@@ -1,21 +1,15 @@
-:root {
-  background-color: #181818;
-  color: rgba(255, 255, 255, 0.87);
-  color-scheme: light dark;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-synthesis: none;
-  font-weight: 400;
-  line-height: 1.5;
-  text-rendering: optimizeLegibility;
+@import 'tailwindcss';
 
+body {
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  @apply flex flex-col min-h-svh bg-gradient-to-t from-[oklch(0.56_0.3_298.3)] to-[oklch(0.93_0.0814_82.92)]  text-[#362e6f] font-sans;
+  touch-action: pan-y;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    background-color: #f8f8f8;
-    color: #181818;
-  }
+#root {
+  @apply flex flex-col flex-1 items-center px-5 pt-16 pb-8 gap-16 backdrop-blur-3xl;
+}
+
+@theme {
+  --font-sans: 'Kirang Haerang', system-ui;
 }
