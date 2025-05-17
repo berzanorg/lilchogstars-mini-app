@@ -116,7 +116,7 @@ function App() {
         </div>
         {isConnected ? (
           <button
-            disabled={!balanceOf || balanceOf >= 10 || isPending || isSuccess}
+            disabled={balanceOf === undefined || balanceOf >= 10 || isPending || isSuccess}
             className='bg-[#362e6f] text-white flex justify-center items-center font-semibold text-2xl h-14 px-7 rounded-2xl drop-shadow-[0px_0px_1rem_#2d235acc] cursor-pointer disabled:cursor-not-allowed'
             onClick={async () => {
               await switchChain(config, { chainId: config.chains[0].id })
