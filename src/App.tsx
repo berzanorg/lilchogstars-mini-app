@@ -159,10 +159,10 @@ function App() {
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1200 1227"
+    viewBox="0 0 24 24"
     fill="currentColor"
   >
-    <path d="M755 565 1175 0h-269L627 392 333 0H0l455 657 0 570h264V657l134-92z" />
+    <path d="M20.03 3H17.3l-4.55 5.82L8.64 3H3.97l6.86 9.28L3.42 21h2.72l5.07-6.46 4.99 6.46h4.73l-7.3-9.91L20.03 3z" />
   </svg>
 </a>
         </div>
