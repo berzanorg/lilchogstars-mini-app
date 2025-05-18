@@ -142,6 +142,14 @@ function App() {
               </button>
             ))}
           </div>
+        <a
+    href="https://warpcast.com/~/compose?text=🔥%20Mint%20your%20EWCL%20NFT%20on%20Base!%20https%3A%2F%2Fewcl-mini-app.vercel.app"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#362e6f] text-white text-center font-semibold text-lg h-12 px-5 mt-4 rounded-xl drop-shadow-[0px_0px_0.5rem_#2d235acc] hover:bg-[#4b3fa3]"
+  >
+    Share on Farcaster
+  </a>
         ) : (
           <div className='flex px-4 flex-col'>
               <a
