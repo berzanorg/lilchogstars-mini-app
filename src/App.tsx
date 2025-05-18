@@ -151,9 +151,20 @@ function App() {
 
       <footer className='flex flex-col gap-12 w-full items-center text-center'>
         <div className='flex items-center gap-6'>
-          <a href='https://x.com/pratiksharma95' target='_blank' className='w-10'>
-            <img src='/x-icon.svg' alt='X' />
-          </a>
+          <a
+  href="https://x.com/pratiksharma95"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-8 h-8 text-black hover:text-gray-700"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1200 1227"
+    fill="currentColor"
+  >
+    <path d="M755 565 1175 0h-269L627 392 333 0H0l455 657 0 570h264V657l134-92z" />
+  </svg>
+</a>
         </div>
       </footer>
     </>
