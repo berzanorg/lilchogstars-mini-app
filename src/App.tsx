@@ -144,9 +144,14 @@ function App() {
           </div>
         ) : (
           <div className='flex px-4 flex-col'>
-            <p className='text-center'>Connect wallet to mint</p>
-          </div>
-        )}
+              <a
+      href='https://warpcast.com/miniapps/TLH-AG5BzKQV/ewcl'
+      className='bg-[#362e6f] text-white flex justify-center items-center font-semibold text-2xl h-14 px-7 rounded-2xl drop-shadow-[0px_0px_1rem_#2d235acc]'
+    >
+      Open in Warpcast
+    </a>
+  </div>
+)}
       </main>
 
       <footer className='flex flex-col gap-12 w-full items-center text-center'>
