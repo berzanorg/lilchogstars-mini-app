@@ -131,28 +131,31 @@ function App() {
         </div>
 
         {isConnected ? (
-          <div className='flex flex-col gap-3'>
-            {[1, 10, 100, 1000, 3000].map((amount) => (
-              <button
-                key={amount}
-                onClick={() => handleMint(amount)}
-                className='bg-[#362e6f] text-white font-semibold text-2xl h-14 px-7 rounded-2xl drop-shadow-[0px_0px_1rem_#2d235acc]'
-              >
-                Mint {amount}
-              </button>
-            ))}
-          </div>
-        <a
-    href="https://warpcast.com/~/compose?text=🔥%20Mint%20your%20EWCL%20NFT%20on%20Base!%20https%3A%2F%2Fewcl-mini-app.vercel.app"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="bg-[#362e6f] text-white text-center font-semibold text-lg h-12 px-5 mt-4 rounded-xl drop-shadow-[0px_0px_0.5rem_#2d235acc] hover:bg-[#4b3fa3]"
-  >
-    Share on Farcaster
-  </a>
-        ) : (
-          <div className='flex px-4 flex-col'>
-              <a
+  <>
+    <div className='flex flex-col gap-3'>
+      {[1, 10, 100, 1000, 3000].map((amount) => (
+        <button
+          key={amount}
+          onClick={() => handleMint(amount)}
+          className='bg-[#362e6f] text-white font-semibold text-2xl h-14 px-7 rounded-2xl drop-shadow-[0px_0px_1rem_#2d235acc]'
+        >
+          Mint {amount}
+        </button>
+      ))}
+    </div>
+
+    <a
+      href="https://warpcast.com/~/compose?text=🔥%20Mint%20your%20EWCL%20NFT%20on%20Base!%20https%3A%2F%2Fewcl-mini-app.vercel.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-[#362e6f] text-white text-center font-semibold text-lg h-12 px-5 mt-4 rounded-xl drop-shadow-[0px_0px_0.5rem_#2d235acc] hover:bg-[#4b3fa3]"
+    >
+      Share on Farcaster
+    </a>
+  </>
+) : (
+  <div className='flex px-4 flex-col'>
+    <a
       href='https://warpcast.com/miniapps/TLH-AG5BzKQV/ewcl'
       className='bg-[#362e6f] text-white flex justify-center items-center font-semibold text-2xl h-14 px-7 rounded-2xl drop-shadow-[0px_0px_1rem_#2d235acc]'
     >
