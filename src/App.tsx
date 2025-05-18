@@ -12,7 +12,7 @@ import { switchChain } from 'wagmi/actions'
 function App() {
   const { address, isConnected } = useAccount()
   const { connect, connectors } = useConnect()
-  const { writeContract, reset, isPending, isSuccess } = useWriteContract()
+  const { writeContract, isSuccess } = useWriteContract()
 
   // Connect wallet or switch chain
   useEffect(() => {
