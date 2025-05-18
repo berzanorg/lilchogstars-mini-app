@@ -112,7 +112,7 @@ function App() {
     <>
       <main className='flex flex-col gap-10 w-full sm:max-w-xs flex-1'>
         <div className='flex-col flex gap-6'>
-          <h1 className='font-bold text-center text-5xl'>My NFT Collection</h1>
+          <h1 className='font-bold text-center text-5xl'>EWCL </h1>
 
           <h3 className='font-bold text-2xl text-center tabular-nums'>
             {(totalSupply ?? 0).toLocaleString()} minted
@@ -121,7 +121,7 @@ function App() {
           <div className='flex px-4'>
             <img
               className='rounded-2xl aspect-square drop-shadow-[0px_0px_1rem_#2d235acc]'
-              src='/lilchogstars.avif'
+              src='/ewcl.JPG'
             />
           </div>
 
