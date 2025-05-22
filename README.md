@@ -1,6 +1,6 @@
 # Lil Chogstars
 
-Farcaster Mini App to mint Lil Chogstars Open Edition on [Monad Testnet](https://monad.xyz)!
+Farcaster Mini App to mint Lil Chogstars NFT Open Edition on [Monad Testnet](https://monad.xyz)!
 
 You can try it [here](https://lilchogstars.pages.dev).
 
