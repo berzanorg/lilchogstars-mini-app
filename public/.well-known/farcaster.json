@@ -1,25 +1,25 @@
 {
   "accountAssociation": {
-    "header": "eyJmaWQiOjM4MTA2NiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweGRmRTQyYmRmMUEwM2I3N0Y4RDdhNTdBOTEyZkRhNTI0ZEE0RjdmODMifQ",
-    "payload": "eyJkb21haW4iOiJsaWxjaG9nc3RhcnMucGFnZXMuZGV2In0",
-    "signature": "MHg5NjVmMDI3ZDE4MGY0MzgzMDM2NGUyYzI3YjliMTkzZjI0NmMxODgzYzg4NDVjODQ3NDFiMjkyYjJkOTgzN2EwNzYxYmUwYjU5OTk5MTMyZTc4OTcyZmViYTg4ODlmMTEzZDMwNWI0NTU3MDk4NGI2OWMzZWMzZmJiMGI1NTcwNTFj"
+    "header": "eyJmaWQiOjE3NjUyLCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4RGM1QmU0Mjg2MEZBRDQ3MTFlQTQ5Nzk4QzE2RDRmMjgwQUMxMzZGMyJ9",
+    "payload": "eyJkb21haW4iOiJld2NsLW1pbmktYXBwLnZlcmNlbC5hcHAifQ",
+    "signature": "MHg3MGVmNmJkYzFlZDViNWFlYjBmNDRhYTZkZTU0NzBiOWYwNDA3MTU1ZjUyMTRiNzEyOTQwYmNlNjk0NzVhNTIzMmE3YzBjN2Q0OTAyNzZhMDczMWZjNjk4NmNmZDEwYzUwYjEzMWMxOGJlZGY0OTMzN2FkYWQwYzhlNDYxOTRlNDFj"
   },
   "frame": {
     "version": "1",
-    "name": "Lil Chogstars",
-    "iconUrl": "https://lilchogstars.pages.dev/logo.png",
-    "splashImageUrl": "https://lilchogstars.pages.dev/splash.png",
-    "splashBackgroundColor": "#3f317b",
-    "homeUrl": "https://lilchogstars.pages.dev",
-    "subtitle": "Lil Chogstars Open Editon!",
-    "description": "Mint Lil Chogstars Open Editon!",
-    "screenshotUrls": [],
+    "name": "EWCL",
+    "homeUrl": "https://ewcl-mini-app.vercel.app",
+    "iconUrl": "https://ewcl-mini-app.vercel.app/favicon.png",
+    "splashImageUrl": "https://ewcl-mini-app.vercel.app/splash.png",
+    "splashBackgroundColor": "#362e6f",
+    "subtitle": "Mint EWCL NFTs on Base",
+    "description": "A minimalist NFT minting experience on the Base network.",
+    "tagline": "EWCL Nft Mint",
+    "ogTitle": "EWCL NFT Mint",
+    "ogDescription": "Mint your EWCL collectibles straight from the Farcaster feed.",
+    "ogImageUrl": "https://ewcl-mini-app.vercel.app/og.png",
     "primaryCategory": "art-creativity",
-    "tags": ["lilchogstars", "monad", "nft", "mint"],
-    "heroImageUrl": "https://lilchogstars.pages.dev/og.png",
-    "tagline": "Lil Chogstars Open Editon!",
-    "ogTitle": "Lil Chogstars",
-    "ogDescription": "Mint Lil Chogstars Open Editon!",
-    "ogImageUrl": "https://lilchogstars.pages.dev/og.png"
+    "tags": ["ewcl", "nft", "base", "mint"],
+    "screenshotUrls": [],
+    "webhookUrl": "https://ewcl-mini-app.vercel.app/api/webhook"
   }
 }

@@ -1,0 +1,5 @@
+cat > src/abis/OnChainNoICEDBYEWCL.json <<EOF
+{
+  "abi": []
+}
+EOF
